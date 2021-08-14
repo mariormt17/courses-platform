@@ -1,21 +1,24 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Class from './pages/Class';
-import Course from './pages/Course';
-import Courses from './pages/Courses';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Page404 from './pages/Page404';
-import Register from './pages/Register';
-import Specialties from './pages/Specialties';
-import Specialty from './pages/Specialty';
-import Teachers from './pages/Teachers';
+import Class from '../pages/Class';
+import Course from '../pages/Course';
+import Courses from '../pages/Courses';
+import Home from '../pages/Home';
+import Login from '../pages/Login';
+import Page404 from '../pages/Page404';
+import Register from '../pages/Register';
+import Specialties from '../pages/Specialties';
+import Specialty from '../pages/Specialty';
+import Teachers from '../pages/Teachers';
 import Protected from './routes/Protected';
 import Public from './routes/Public';
+import Header from './Header';
 
 const App = () => {
   return (
     <Router>
+      <Header />
+
       <Switch>
         {/* Home Route */}
         <Route path="/" exact component={Home} />
