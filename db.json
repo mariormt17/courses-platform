@@ -22,5 +22,55 @@
       "id": 3,
       "name": "GIT desde cero"
     }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Norberto Escalona Quintana",
+      "avatar": "https://lh3.googleusercontent.com/proxy/AAc3J2FSAQoSAYi3Yqkx3R3ttBMUwKr6dVd1onoivLWrmdWIQUGJhR8WGM1hjBYuDjqAB1Nqsyp5NzklDenrzm3M-1lDJlA8",
+      "country": "México"
+    },
+    {
+      "id": 2,
+      "name": "Adelia Valdés Aguirre",
+      "avatar": "https://www5.mysatcomla.com/Content/assets/images/users/4.jpg",
+      "country": "Colombia"
+    },
+    {
+      "id": 3,
+      "name": "Martin Matas Valle",
+      "avatar": "https://www.bioforma.com.co/wp-content/uploads/2018/06/dentalia-demo-deoctor-3-1-750x750.jpg",
+      "country": "México"
+    },
+    {
+      "id": 4,
+      "name": "César Vázquez",
+      "avatar": "https://www.quantilia.com/wp-content/themes/quantilia/images/image55.png",
+      "country": "Perú"
+    },
+    {
+      "id": 5,
+      "name": "Ángela Galvez Amorós",
+      "avatar": "http://addison.bold-themes.com/main-demo/wp-content/uploads/sites/3/2017/05/person-team-01.jpg",
+      "country": "Argentina"
+    },
+    {
+      "id": 6,
+      "name": "Juan Pablo Calvet Ordóñez",
+      "avatar": "https://www.cgsonline.com/wp-content/uploads/2020/01/Ben_Virdee-Chapman.jpg",
+      "country": "México"
+    },
+    {
+      "id": 7,
+      "name": "Rocío Reyes Huerta",
+      "avatar": "https://www.ccberceo.com/wp-content/uploads/2016/01/Faces-400x400px-1_1_18.jpg",
+      "country": "Colombia"
+    },
+    {
+      "id": 8,
+      "name": "Jose Francisco Blanes Verdejo",
+      "avatar": "https://www.rzs.es/wp-content/uploads/2016/01/Faces-400x400px-1_1.jpg",
+      "country": "Argentina"
+    }
   ]
 }
