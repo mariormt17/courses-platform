@@ -12,15 +12,93 @@
   "courses": [
     {
       "id": 1,
-      "name": "React desde cero"
+      "name": "React desde cero (2021)",
+      "description": "Crea interfaces de usuario reutilizables y basadas en componentes con la librería para el desarrollo frontend más usada en el mundo.",
+      "cover": "https://edteam-media.s3.amazonaws.com/courses/big/7204fcde-37aa-49a2-a619-63459f834ada.png",
+      "level": "básico",
+      "rating": "4.9",
+      "duration": "7 hours"
     },
     {
       "id": 2,
-      "name": "POO en JavaScript"
+      "name": "POO en JavaScript",
+      "description": "Implementa el paradigma de programación más utilizado en JavaScript.",
+      "cover": "https://edteam-media.s3.amazonaws.com/courses/big/251d0aae-bf84-4c02-b214-33384d9fdf36.png",
+      "level": "básico",
+      "rating": "4.7",
+      "duration": "3 hours"
     },
     {
       "id": 3,
-      "name": "GIT desde cero"
+      "name": "GIT desde cero",
+      "description": "Aprende el sistema de control de versiones estándar del desarrollo de software.",
+      "cover": "https://edteam-media.s3.amazonaws.com/courses/big/fd2adf12-10de-40de-b430-4869c03c8229.png",
+      "level": "básico",
+      "rating": "4.8",
+      "duration": "4 hours"
+    },
+    {
+      "id": 4,
+      "name": "Análisis y presentación de datos con Python",
+      "description": "Aprende a preparar, depurar, analizar y graficar los datos de mayor relevancia usando la paquetería de Python.",
+      "cover": "https://edteam-media.s3.amazonaws.com/courses/big/2fca45b7-d803-44d9-93ab-56d3452f052a.png",
+      "level": "intermedio",
+      "rating": "4.9",
+      "duration": "5 hours"
+    },
+    {
+      "id": 5,
+      "name": "Concurrencia en Go",
+      "description": "Aprende como funciona la concurrencia en Go y a implementarla con buenas prácticas para mejorar el rendimiento de tus aplicaciones.",
+      "cover": "https://edteam-media.s3.amazonaws.com/courses/big/93b594bb-a011-4c43-a39d-5ab3e9240e8b.png",
+      "level": "avanzado",
+      "rating": "5.0",
+      "duration": "4 hours"
+    },
+    {
+      "id": 6,
+      "name": "Ruby desde cero",
+      "description": "Aprende el lenguaje sobre el que se fundamenta Ruby on Rails, uno de los frameworks más famosos de la programación web.",
+      "cover": "https://edteam-media.s3.amazonaws.com/courses/big/440bf729-4f2b-49a6-a0c7-7cf65a8bd31b.png",
+      "level": "básico",
+      "rating": "4.8",
+      "duration": "8 hours"
+    },
+    {
+      "id": 7,
+      "name": "Gramática avanzada del inglés",
+      "description": "Domina el futuro usando distintos tiempos gramaticales y practica tu fluidez a la hora de hablar.",
+      "cover": "https://edteam-media.s3.amazonaws.com/courses/big/7ddc32c0-79e8-4551-a89c-f9b0007a5e13.jpg",
+      "level": "avanzado",
+      "rating": "4.8",
+      "duration": "7 hours"
+    },
+    {
+      "id": 8,
+      "name": "Motion Graphics para redes sociales",
+      "description": "Elabora gráficos animados para resaltar tus publicaciones en redes sociales.",
+      "cover": "https://edteam-media.s3.amazonaws.com/courses/big/a027fe1a-fcf4-4a1c-8717-c3d52d5f9879.jpg",
+      "level": "básico",
+      "rating": "4.7",
+      "duration": "9 hours"
+    },
+    {
+      "id": 9,
+      "name": "Desarrollo web con GraphQL y Vue.js",
+      "description": "Reutiliza y mejora tus conocimientos de Vuejs y Graphql consumiendo una API desde el frontend.",
+      "cover": "https://edteam-media.s3.amazonaws.com/courses/big/fa54a0a1-9401-41c1-ae19-8bd80037499c.jpg",
+      "level": "intermedio",
+      "rating": "4.7",
+      "duration": "5 hours"
+    },
+    {
+      "id": 10,
+      "name": "Fundamentos de GCP (Google Cloud Platform)",
+      "description": "Aprende las bases para crear tu primera arquitectura en la nube de Google. ",
+      "cover": "https://edteam-media.s3.amazonaws.com/courses/big/33d0ca7f-ae71-4a0b-834f-93540b957442.png",
+      "level": "básico",
+      "rating": "4.9",
+      "duration": "5 hours"
     }
   ],
   "teachers": [
