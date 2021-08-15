@@ -1,4 +1,4 @@
-import Axios from "axios";
+import Axios from 'axios';
 import {
   GET_ALL_COURSES,
   GET_ALL_POSTS,

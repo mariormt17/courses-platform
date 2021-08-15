@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles/Login.scss'
-import Axios from "axios";
+import Axios from 'axios';
 
 function authentication(e) {
   e.preventDefault()
