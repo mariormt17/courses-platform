@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles/Login.scss'
 import Axios from 'axios';
+import { NavLink } from 'react-router-dom';
 
 function authentication(e) {
   e.preventDefault()
@@ -63,6 +64,13 @@ function Login() {
               value="Iniciar Sesión"
             />
           </div>
+          <NavLink
+            exact
+            to="/registro"
+            className="button full ghost"
+          >
+            Registro
+          </NavLink>
         </form>
       </div>
     </div>
