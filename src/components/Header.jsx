@@ -27,14 +27,30 @@ function Header() {
                 <NavLink exact to="/">Inicio</NavLink>
               </li>
               <li>
-                <NavLink to="/especialidades">Especialidades</NavLink>
+                <NavLink exact to="/especialidades">Especialidades</NavLink>
               </li>
               <li>
-                <NavLink to="/cursos">Cursos</NavLink>
+                <NavLink exact to="/cursos">Cursos</NavLink>
               </li>
               <li>
-                <NavLink to="/profesores">Profesores</NavLink>
+                <NavLink exact to="/profesores">Profesores</NavLink>
               </li>
+              {localStorage.getItem('token') ?
+                <li>
+                  <span
+                    onClick={() => {
+                      localStorage.removeItem('token');
+                      window.location = "/";
+                    }}
+                    style={{cursor: "pointer"}}
+                  >
+                    Cerrar Sesión
+                  </span>
+                </li> :
+                <li>
+                  <NavLink exact to="/login">Iniciar Sesión</NavLink>
+                </li>
+              }
             </ul>
           </nav>
           <div
