@@ -3,6 +3,7 @@ import Banner from '../components/Banner'
 import store from '../redux/store'
 import { getAllTeachers } from '../redux/actionCreators'
 import { connect } from 'react-redux'
+import TeacherCard from '../components/TeacherCard'
 
 function Teachers({ match, teachers }) {
   useEffect(() => {
@@ -25,17 +26,10 @@ function Teachers({ match, teachers }) {
           {
             teachers.map(teacher => {
               return (
-                <article key={teacher.id}>
-                  <div className="s-px-4">
-                    <div className="img-container circle s-mb-2">
-                      <img src={teacher.avatar} alt={teacher.name} />
-                    </div>
-                  </div>
-                  <div className="s-center">
-                    <p className="t3 s-mb-1">{teacher.name}</p>
-                    <p>{teacher.country}</p>
-                  </div>
-                </article>
+                <TeacherCard
+                  teacher={teacher}
+                  key={teacher.id}
+                />
               )
             })
           }
