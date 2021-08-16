@@ -41,21 +41,490 @@
       "id": 1,
       "name": "React desde cero (2021)",
       "subtitle": "Crea interfaces de usuario reutilizables y basadas en componentes con la librería para el desarrollo frontend más usada en el mundo.",
+      "information": "React.js es la librería frontend con la que están construidas las dos redes sociales más grandes: Facebook e Instagram. En este curso aprenderás a crear tus propios componentes React con la sintaxis JSX y usarlos para crear interfaces de usuario.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/7204fcde-37aa-49a2-a619-63459f834ada.png",
       "level": "básico",
       "rating": "4.9",
       "duration": "7 hours",
-      "specialty_id": 1
+      "you_learn": "<li>Configuración del entorno de desarrollo</li>\n<li>Sintaxis JSX</li>\n<li>El poder de los componentes</li>",
+      "requirements": "<li><a href=\"https://ed.team/cursos/html\" target=\"_blank\">HTML</a></li>\n<li><a href=\"https://ed.team/cursos/javascript\" target=\"_blank\">Javascript desde cero</a></li>\n<li><a href=\"https://ed.team/cursos/js-poo\" target=\"_blank\">Javascript Orientado a Objetos</a></li>",
+      "specialty_id": 1,
+      "classes": [
+        {
+          "class": {
+            "id": 812,
+            "title": "Comenzando con React",
+            "description": "Entenderás para qué sirve React y por qué debes utilizarlo"
+          },
+          "subject_count": 7,
+          "subjects": [
+            {
+              "subject": {
+                "id": 4424,
+                "title": "1.1 - ¿Qué es React?",
+                "video_url": "https://player.vimeo.com/external/339569988.m3u8?s=83227f612babcc1398d43709aafa33a417cbdbed",
+                "duration_string_format": "08:00"
+              }
+            },
+            {
+              "subject": {
+                "id": 4425,
+                "title": "1.2 - Virtual DOM",
+                "duration_string_format": "08:01"
+              }
+            },
+            {
+              "subject": {
+                "id": 4426,
+                "title": "1.3 - Pensando en componentes",
+                "video_url": "https://player.vimeo.com/external/339570499.m3u8?s=d86844f131b2e35986b7a2e696a2fd916343736f",
+                "duration_string_format": "15:14"
+              }
+            },
+            {
+              "subject": {
+                "id": 4427,
+                "title": "1.4 - Instalando mi primera app",
+                "duration_string_format": "17:29"
+              }
+            },
+            {
+              "subject": {
+                "id": 4428,
+                "title": "1.5 - Dependencias",
+                "duration_string_format": "05:58"
+              }
+            },
+            {
+              "subject": {
+                "id": 4567,
+                "title": "1.6 - Scripts",
+                "duration_string_format": "11:41"
+              }
+            },
+            {
+              "subject": {
+                "id": 4568,
+                "title": "1.7 - Recomendaciones",
+                "duration_string_format": "03:52"
+              }
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 813,
+            "title": "JSX",
+            "description": "JSX es la sintaxis que usa React para crear componentes en JavaScript como si fuera HTML"
+          },
+          "subject_count": 4,
+          "subjects": [
+            {
+              "subject": {
+                "id": 4429,
+                "title": "2.1 - Integrando EDgrid",
+                "duration_string_format": "13:24"
+              }
+            },
+            {
+              "subject": {
+                "id": 4430,
+                "title": "2.2 - ¿Qué es JSX?",
+                "duration_string_format": "16:36"
+              }
+            },
+            {
+              "subject": {
+                "id": 4431,
+                "title": "2.3 - Restricciones JSX",
+                "duration_string_format": "18:32"
+              }
+            },
+            {
+              "subject": {
+                  "id": 4432,
+                  "title": "2.4 - JSX a profundidad",
+                  "duration_string_format": "13:10"
+              }
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 814,
+            "title": "Componentes",
+            "description": "Los componentes son los bloques en los que divides la interfaz de tu aplicación."
+          },
+          "subject_count": 7,
+          "subjects": [
+            {
+              "subject": {
+                  "id": 4433,
+                  "title": "3.1 - Subiendo proyecto a Github",
+                  "duration_string_format": "11:21"
+              }
+            },
+            {
+              "subject": {
+                "id": 4434,
+                "title": "3.2 - Expresiones JSX",
+                "duration_string_format": "14:58"
+              }
+            },
+            {
+              "subject": {
+                "id": 4435,
+                "title": "3.3 - Propiedades",
+                "duration_string_format": "09:12"
+              }
+            },
+            {
+              "subject": {
+                "id": 4436,
+                "title": "3.4 - Imprimiendo propiedades",
+                "duration_string_format": "14:48"
+              }
+            },
+            {
+              "subject": {
+                "id": 4581,
+                "title": "3.5 - Componentes presentacionales",
+                "duration_string_format": "09:39"
+              }
+            },
+            {
+              "subject": {
+                "id": 4582,
+                "title": "3.6 - propTypes y defaultProps",
+                "duration_string_format": "16:22"
+              }
+            },
+            {
+              "subject": {
+                "id": 4583,
+                "title": "3.7 - Recorriendo arrays",
+                "duration_string_format": "14:34"
+              }
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 815,
+            "title": "El estado de los componentes",
+            "description": "Aprenderás a manejar y actualizar la información que contiene un componente."
+          },
+          "subject_count": 9,
+          "subjects": [
+            {
+              "subject": {
+                "id": 4437,
+                "title": "4.1 - Creando un componente de clase",
+                "duration_string_format": "14:15"
+              }
+            },
+            {
+              "subject": {
+                "id": 4438,
+                "title": "4.2 - Formulario",
+                "duration_string_format": "04:45"
+              }
+            },
+            {
+              "subject": {
+                "id": 4439,
+                "title": "4.3 - Estado del componente",
+                "duration_string_format": "13:25"
+              }
+            },
+            {
+              "subject": {
+                "id": 4440,
+                "title": "4.4 - Actualizando el estado",
+                "duration_string_format": "10:57"
+              }
+            },
+            {
+              "subject": {
+                "id": 4584,
+                "title": "4.5 - Escribiendo métodos",
+                "duration_string_format": "07:55"
+              }
+            },
+            {
+              "subject": {
+                "id": 4585,
+                "title": "4.6 - Ciclo de vida de montaje",
+                "duration_string_format": "17:37"
+              }
+            },
+            {
+              "subject": {
+                "id": 4586,
+                "title": "4.7 - Ciclo de vida de actualización",
+                "duration_string_format": "08:59"
+              }
+            },
+            {
+              "subject": {
+                "id": 4587,
+                "title": "4.8 - Ciclo de vida de desmontaje",
+                "duration_string_format": "09:40"
+              }
+            },
+            {
+              "subject": {
+                "id": 4588,
+                "title": "4.9 - Consejos finales",
+                "duration_string_format": "03:30"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 2,
       "name": "React - Manejo del estado de la aplicación",
       "subtitle": "Aprende a manejar un estado global para toda tu aplicación para controlar el estado de los componentes.",
-      "cover": "https://edteam-media.s3.amazonaws.com/courses/small/8b7ef439-b9bc-485f-9608-d82d0d1a7a2b.png",
+      "cover": "https://edteam-media.s3.amazonaws.com/courses/big/8b7ef439-b9bc-485f-9608-d82d0d1a7a2b.png",
       "level": "intermedio",
       "rating": "4.8",
       "duration": "5 hours",
-      "specialty_id": 1
+      "specialty_id": 1,
+      "classes": [
+        {
+          "class": {
+            "id": 812,
+            "title": "Comenzando con React",
+            "description": "Entenderás para qué sirve React y por qué debes utilizarlo"
+          },
+          "subject_count": 7,
+          "subjects": [
+            {
+              "subject": {
+                "id": 4424,
+                "title": "1.1 - ¿Qué es React?",
+                "video_url": "https://player.vimeo.com/external/339569988.m3u8?s=83227f612babcc1398d43709aafa33a417cbdbed",
+                "duration_string_format": "08:00"
+              }
+            },
+            {
+              "subject": {
+                "id": 4425,
+                "title": "1.2 - Virtual DOM",
+                "duration_string_format": "08:01"
+              }
+            },
+            {
+              "subject": {
+                "id": 4426,
+                "title": "1.3 - Pensando en componentes",
+                "video_url": "https://player.vimeo.com/external/339570499.m3u8?s=d86844f131b2e35986b7a2e696a2fd916343736f",
+                "duration_string_format": "15:14"
+              }
+            },
+            {
+              "subject": {
+                "id": 4427,
+                "title": "1.4 - Instalando mi primera app",
+                "duration_string_format": "17:29"
+              }
+            },
+            {
+              "subject": {
+                "id": 4428,
+                "title": "1.5 - Dependencias",
+                "duration_string_format": "05:58"
+              }
+            },
+            {
+              "subject": {
+                "id": 4567,
+                "title": "1.6 - Scripts",
+                "duration_string_format": "11:41"
+              }
+            },
+            {
+              "subject": {
+                "id": 4568,
+                "title": "1.7 - Recomendaciones",
+                "duration_string_format": "03:52"
+              }
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 813,
+            "title": "JSX",
+            "description": "JSX es la sintaxis que usa React para crear componentes en JavaScript como si fuera HTML"
+          },
+          "subject_count": 4,
+          "subjects": [
+            {
+              "subject": {
+                "id": 4429,
+                "title": "2.1 - Integrando EDgrid",
+                "duration_string_format": "13:24"
+              }
+            },
+            {
+              "subject": {
+                "id": 4430,
+                "title": "2.2 - ¿Qué es JSX?",
+                "duration_string_format": "16:36"
+              }
+            },
+            {
+              "subject": {
+                "id": 4431,
+                "title": "2.3 - Restricciones JSX",
+                "duration_string_format": "18:32"
+              }
+            },
+            {
+              "subject": {
+                  "id": 4432,
+                  "title": "2.4 - JSX a profundidad",
+                  "duration_string_format": "13:10"
+              }
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 814,
+            "title": "Componentes",
+            "description": "Los componentes son los bloques en los que divides la interfaz de tu aplicación."
+          },
+          "subject_count": 7,
+          "subjects": [
+            {
+              "subject": {
+                  "id": 4433,
+                  "title": "3.1 - Subiendo proyecto a Github",
+                  "duration_string_format": "11:21"
+              }
+            },
+            {
+              "subject": {
+                "id": 4434,
+                "title": "3.2 - Expresiones JSX",
+                "duration_string_format": "14:58"
+              }
+            },
+            {
+              "subject": {
+                "id": 4435,
+                "title": "3.3 - Propiedades",
+                "duration_string_format": "09:12"
+              }
+            },
+            {
+              "subject": {
+                "id": 4436,
+                "title": "3.4 - Imprimiendo propiedades",
+                "duration_string_format": "14:48"
+              }
+            },
+            {
+              "subject": {
+                "id": 4581,
+                "title": "3.5 - Componentes presentacionales",
+                "duration_string_format": "09:39"
+              }
+            },
+            {
+              "subject": {
+                "id": 4582,
+                "title": "3.6 - propTypes y defaultProps",
+                "duration_string_format": "16:22"
+              }
+            },
+            {
+              "subject": {
+                "id": 4583,
+                "title": "3.7 - Recorriendo arrays",
+                "duration_string_format": "14:34"
+              }
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 815,
+            "title": "El estado de los componentes",
+            "description": "Aprenderás a manejar y actualizar la información que contiene un componente."
+          },
+          "subject_count": 9,
+          "subjects": [
+            {
+              "subject": {
+                "id": 4437,
+                "title": "4.1 - Creando un componente de clase",
+                "duration_string_format": "14:15"
+              }
+            },
+            {
+              "subject": {
+                "id": 4438,
+                "title": "4.2 - Formulario",
+                "duration_string_format": "04:45"
+              }
+            },
+            {
+              "subject": {
+                "id": 4439,
+                "title": "4.3 - Estado del componente",
+                "duration_string_format": "13:25"
+              }
+            },
+            {
+              "subject": {
+                "id": 4440,
+                "title": "4.4 - Actualizando el estado",
+                "duration_string_format": "10:57"
+              }
+            },
+            {
+              "subject": {
+                "id": 4584,
+                "title": "4.5 - Escribiendo métodos",
+                "duration_string_format": "07:55"
+              }
+            },
+            {
+              "subject": {
+                "id": 4585,
+                "title": "4.6 - Ciclo de vida de montaje",
+                "duration_string_format": "17:37"
+              }
+            },
+            {
+              "subject": {
+                "id": 4586,
+                "title": "4.7 - Ciclo de vida de actualización",
+                "duration_string_format": "08:59"
+              }
+            },
+            {
+              "subject": {
+                "id": 4587,
+                "title": "4.8 - Ciclo de vida de desmontaje",
+                "duration_string_format": "09:40"
+              }
+            },
+            {
+              "subject": {
+                "id": 4588,
+                "title": "4.9 - Consejos finales",
+                "duration_string_format": "03:30"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 3,
@@ -65,7 +534,240 @@
       "level": "avanzado",
       "rating": "4.8",
       "duration": "7 hours",
-      "specialty_id": 1
+      "specialty_id": 1,
+      "classes": [
+        {
+          "class": {
+            "id": 812,
+            "title": "Comenzando con React",
+            "description": "Entenderás para qué sirve React y por qué debes utilizarlo"
+          },
+          "subject_count": 7,
+          "subjects": [
+            {
+              "subject": {
+                "id": 4424,
+                "title": "1.1 - ¿Qué es React?",
+                "video_url": "https://player.vimeo.com/external/339569988.m3u8?s=83227f612babcc1398d43709aafa33a417cbdbed",
+                "duration_string_format": "08:00"
+              }
+            },
+            {
+              "subject": {
+                "id": 4425,
+                "title": "1.2 - Virtual DOM",
+                "duration_string_format": "08:01"
+              }
+            },
+            {
+              "subject": {
+                "id": 4426,
+                "title": "1.3 - Pensando en componentes",
+                "video_url": "https://player.vimeo.com/external/339570499.m3u8?s=d86844f131b2e35986b7a2e696a2fd916343736f",
+                "duration_string_format": "15:14"
+              }
+            },
+            {
+              "subject": {
+                "id": 4427,
+                "title": "1.4 - Instalando mi primera app",
+                "duration_string_format": "17:29"
+              }
+            },
+            {
+              "subject": {
+                "id": 4428,
+                "title": "1.5 - Dependencias",
+                "duration_string_format": "05:58"
+              }
+            },
+            {
+              "subject": {
+                "id": 4567,
+                "title": "1.6 - Scripts",
+                "duration_string_format": "11:41"
+              }
+            },
+            {
+              "subject": {
+                "id": 4568,
+                "title": "1.7 - Recomendaciones",
+                "duration_string_format": "03:52"
+              }
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 813,
+            "title": "JSX",
+            "description": "JSX es la sintaxis que usa React para crear componentes en JavaScript como si fuera HTML"
+          },
+          "subject_count": 4,
+          "subjects": [
+            {
+              "subject": {
+                "id": 4429,
+                "title": "2.1 - Integrando EDgrid",
+                "duration_string_format": "13:24"
+              }
+            },
+            {
+              "subject": {
+                "id": 4430,
+                "title": "2.2 - ¿Qué es JSX?",
+                "duration_string_format": "16:36"
+              }
+            },
+            {
+              "subject": {
+                "id": 4431,
+                "title": "2.3 - Restricciones JSX",
+                "duration_string_format": "18:32"
+              }
+            },
+            {
+              "subject": {
+                  "id": 4432,
+                  "title": "2.4 - JSX a profundidad",
+                  "duration_string_format": "13:10"
+              }
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 814,
+            "title": "Componentes",
+            "description": "Los componentes son los bloques en los que divides la interfaz de tu aplicación."
+          },
+          "subject_count": 7,
+          "subjects": [
+            {
+              "subject": {
+                  "id": 4433,
+                  "title": "3.1 - Subiendo proyecto a Github",
+                  "duration_string_format": "11:21"
+              }
+            },
+            {
+              "subject": {
+                "id": 4434,
+                "title": "3.2 - Expresiones JSX",
+                "duration_string_format": "14:58"
+              }
+            },
+            {
+              "subject": {
+                "id": 4435,
+                "title": "3.3 - Propiedades",
+                "duration_string_format": "09:12"
+              }
+            },
+            {
+              "subject": {
+                "id": 4436,
+                "title": "3.4 - Imprimiendo propiedades",
+                "duration_string_format": "14:48"
+              }
+            },
+            {
+              "subject": {
+                "id": 4581,
+                "title": "3.5 - Componentes presentacionales",
+                "duration_string_format": "09:39"
+              }
+            },
+            {
+              "subject": {
+                "id": 4582,
+                "title": "3.6 - propTypes y defaultProps",
+                "duration_string_format": "16:22"
+              }
+            },
+            {
+              "subject": {
+                "id": 4583,
+                "title": "3.7 - Recorriendo arrays",
+                "duration_string_format": "14:34"
+              }
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 815,
+            "title": "El estado de los componentes",
+            "description": "Aprenderás a manejar y actualizar la información que contiene un componente."
+          },
+          "subject_count": 9,
+          "subjects": [
+            {
+              "subject": {
+                "id": 4437,
+                "title": "4.1 - Creando un componente de clase",
+                "duration_string_format": "14:15"
+              }
+            },
+            {
+              "subject": {
+                "id": 4438,
+                "title": "4.2 - Formulario",
+                "duration_string_format": "04:45"
+              }
+            },
+            {
+              "subject": {
+                "id": 4439,
+                "title": "4.3 - Estado del componente",
+                "duration_string_format": "13:25"
+              }
+            },
+            {
+              "subject": {
+                "id": 4440,
+                "title": "4.4 - Actualizando el estado",
+                "duration_string_format": "10:57"
+              }
+            },
+            {
+              "subject": {
+                "id": 4584,
+                "title": "4.5 - Escribiendo métodos",
+                "duration_string_format": "07:55"
+              }
+            },
+            {
+              "subject": {
+                "id": 4585,
+                "title": "4.6 - Ciclo de vida de montaje",
+                "duration_string_format": "17:37"
+              }
+            },
+            {
+              "subject": {
+                "id": 4586,
+                "title": "4.7 - Ciclo de vida de actualización",
+                "duration_string_format": "08:59"
+              }
+            },
+            {
+              "subject": {
+                "id": 4587,
+                "title": "4.8 - Ciclo de vida de desmontaje",
+                "duration_string_format": "09:40"
+              }
+            },
+            {
+              "subject": {
+                "id": 4588,
+                "title": "4.9 - Consejos finales",
+                "duration_string_format": "03:30"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 4,
@@ -230,81 +932,74 @@
   ],
   "posts": [
     {
-      "id": 1,
-      "author": "Novalee Spicer",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "date": "20/08/2019 a las 10:54",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
-    },
-    {
-      "id": 2,
-      "author": "ferdinand karl",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "date": "20/08/2019 a las 10:54",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
-    },
-    {
-      "id": 3,
-      "author": "Teresa Holland",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "date": "20/08/2019 a las 10:54",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
-    },
-    {
-      "id": 4,
-      "author": "Natalia Sanz",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "date": "20/08/2019 a las 10:54",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
-    },
-    {
-      "id": 5,
-      "author": "Jaren Hammer",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "date": "20/08/2019 a las 10:54",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
-    },
-    {
-      "id": 6,
-      "author": "Lyle Kauffman",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "date": "20/08/2019 a las 10:54",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
-    },
-    {
-      "id": 7,
-      "author": "Phoenix Walker",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "date": "20/08/2019 a las 10:54",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
-    },
-    {
-      "id": 8,
-      "author": "Howard Burns",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "date": "20/08/2019 a las 10:54",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+      "id": 10,
+      "author": "Juan Aguilar",
+      "title": "Quiero trabajar en EDteam",
+      "date": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
     },
     {
       "id": 9,
-      "author": "Loki Bright",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "date": "20/08/2019 a las 10:54",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+      "author": "Alfonso Martinez",
+      "title": "PHP puro o Laravel?  cuál aconsejan",
+      "date": "20/07/2019 a las 10:45",
+      "content": " Vivamus in tristique nulla. Nulla ac nunc efficitur, condimentum sem vel, rutrum purus. Pellentesque ac pellentesque ex. Donec dignissim posuere purus, sit amet faucibus velit porta vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. at fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
     },
     {
-      "id": 10,
-      "author": "Katherine Moss",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "date": "20/08/2019 a las 10:54",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+      "id": 8,
+      "author": "Sofia Velasquez",
+      "title": "Rendirse antes de aprender a programar",
+      "date": "20/07/2019 a las 10:45",
+      "content": "  Nulla ac nunc efficitur, condimentum sem vel, rutrum purus. Pellentesque ac pellentesque ex. Donec dignissim posuere pur Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
     },
     {
-      "id": 11,
-      "author": "Carmen Velasco",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "date": "20/08/2019 a las 10:54",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+      "id": 7,
+      "author": "Maria Juana Riquelme",
+      "title": "Cuánto cuesta un hosting?",
+      "date": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 6,
+      "author": "Juan Antonio Marcia",
+      "title": "Estamos buscando desarrolladores Java",
+      "date": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 5,
+      "author": "Alexys Mendez",
+      "title": "Go desde cero está actualizado",
+      "date": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 4,
+      "author": "Andres Steves",
+      "title": "se puede usar Java dentro de HTML?",
+      "date": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 3,
+      "author": "Cosme Fulanito",
+      "title": "Hackaton de EDteam 2019 ... habrá?",
+      "date": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 2,
+      "author": "Cosme Fulanito",
+      "title": "Por favor no escribir en mayúsculas",
+      "date": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 1,
+      "author": "Cosme Fulanito",
+      "title": "Ayuda con CSS grid Urgente!!",
+      "date": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
     }
   ]
 }
