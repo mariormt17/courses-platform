@@ -11,6 +11,13 @@ function CourseCard({ course }) {
       </div>
       <div className="card__data s-py-2 s-px-1">
         <h3 className="t4 center">{course.name}</h3>
+        <div style={{
+          display: "flex",
+          justifyContent: "space-around"
+        }}>
+          <p>{course.rating} ⭐️</p>
+          <p>{course.duration}</p>
+        </div>
       </div>
     </article>
   )
