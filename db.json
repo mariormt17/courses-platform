@@ -227,5 +227,84 @@
       "avatar": "https://www.rzs.es/wp-content/uploads/2016/01/Faces-400x400px-1_1.jpg",
       "country": "Argentina"
     }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "author": "Novalee Spicer",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "20/08/2019 a las 10:54",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+    },
+    {
+      "id": 2,
+      "author": "ferdinand karl",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "20/08/2019 a las 10:54",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+    },
+    {
+      "id": 3,
+      "author": "Teresa Holland",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "20/08/2019 a las 10:54",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+    },
+    {
+      "id": 4,
+      "author": "Natalia Sanz",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "20/08/2019 a las 10:54",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+    },
+    {
+      "id": 5,
+      "author": "Jaren Hammer",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "20/08/2019 a las 10:54",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+    },
+    {
+      "id": 6,
+      "author": "Lyle Kauffman",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "20/08/2019 a las 10:54",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+    },
+    {
+      "id": 7,
+      "author": "Phoenix Walker",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "20/08/2019 a las 10:54",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+    },
+    {
+      "id": 8,
+      "author": "Howard Burns",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "20/08/2019 a las 10:54",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+    },
+    {
+      "id": 9,
+      "author": "Loki Bright",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "20/08/2019 a las 10:54",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+    },
+    {
+      "id": 10,
+      "author": "Katherine Moss",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "20/08/2019 a las 10:54",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+    },
+    {
+      "id": 11,
+      "author": "Carmen Velasco",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "20/08/2019 a las 10:54",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas cumque qui natus recusandae earum numquam beatae, doloremque harum expedita quos? Vel, optio doloribus enim neque ad necessitatibus hic a?"
+    }
   ]
 }
