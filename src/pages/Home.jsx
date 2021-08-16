@@ -22,6 +22,7 @@ function Home({ posts }) {
         title="Bienvenido a la experiencia más increíble en educación online. Comienza hoy mismo a aprender."
         subtitle="Nuestro equipo ha desarrollado esta plataforma pensando en ti. Sabemos que estás buscando contenido de calidad. Aquí lo encontrarás"
         home
+        poster="https://ed.team/static/images/utils/ensena/banner.svg"
       />
       <main className="ed-grid m-grid-3">
         <div className="l-section m-cols-2">

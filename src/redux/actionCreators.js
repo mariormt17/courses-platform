@@ -78,7 +78,7 @@ export const getSpecialty = (id) => dispatch => {
   )
 }
 
-export const getCourses = (id) => dispatch => {
+export const getCourse = (id) => dispatch => {
   Axios.get(`${API_URL}/courses/${id}`)
   .then(response => {
       return dispatch({

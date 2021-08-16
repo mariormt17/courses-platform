@@ -40,7 +40,7 @@
     {
       "id": 1,
       "name": "React desde cero (2021)",
-      "description": "Crea interfaces de usuario reutilizables y basadas en componentes con la librería para el desarrollo frontend más usada en el mundo.",
+      "subtitle": "Crea interfaces de usuario reutilizables y basadas en componentes con la librería para el desarrollo frontend más usada en el mundo.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/7204fcde-37aa-49a2-a619-63459f834ada.png",
       "level": "básico",
       "rating": "4.9",
@@ -50,7 +50,7 @@
     {
       "id": 2,
       "name": "React - Manejo del estado de la aplicación",
-      "description": "Aprende a manejar un estado global para toda tu aplicación para controlar el estado de los componentes.",
+      "subtitle": "Aprende a manejar un estado global para toda tu aplicación para controlar el estado de los componentes.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/small/8b7ef439-b9bc-485f-9608-d82d0d1a7a2b.png",
       "level": "intermedio",
       "rating": "4.8",
@@ -60,7 +60,7 @@
     {
       "id": 3,
       "name": "Plataforma de educación online con React.js",
-      "description": "Aprende a crear tu propia aplicación de cursos con React.js y basada en la experiencia de EDteam.",
+      "subtitle": "Aprende a crear tu propia aplicación de cursos con React.js y basada en la experiencia de EDteam.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/4ff27f76-96a9-44ab-bb7f-ed0e17263e7c.png",
       "level": "avanzado",
       "rating": "4.8",
@@ -70,7 +70,7 @@
     {
       "id": 4,
       "name": "JavaScript desde cero",
-      "description": "Domina las bases del único lenguaje que te da la oportunidad de trabajar del lado del cliente y del lado del servidor.",
+      "subtitle": "Domina las bases del único lenguaje que te da la oportunidad de trabajar del lado del cliente y del lado del servidor.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/61e5a210-8dab-412e-a6dc-802c070cc18c.jpg",
       "level": "básico",
       "rating": "4.8",
@@ -80,7 +80,7 @@
     {
       "id": 5,
       "name": "POO en JavaScript",
-      "description": "Implementa el paradigma de programación más utilizado en JavaScript.",
+      "subtitle": "Implementa el paradigma de programación más utilizado en JavaScript.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/251d0aae-bf84-4c02-b214-33384d9fdf36.png",
       "level": "básico",
       "rating": "4.7",
@@ -90,7 +90,7 @@
     {
       "id": 6,
       "name": "JavaScript en el navegador",
-      "description": "JavaScript es un lenguaje que vive en el navegador y nos permite manipular el DOM.",
+      "subtitle": "JavaScript es un lenguaje que vive en el navegador y nos permite manipular el DOM.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/f0601f9d-14f4-464d-8f42-7a2119af9c8a.png",
       "level": "intermedio",
       "rating": "4.7",
@@ -100,7 +100,7 @@
     {
       "id": 7,
       "name": "Ajax y WebSockets",
-      "description": "Aprende a comunicarte en tiempo real con el servidor utilizando websockets y a consumir APIs con JavaScript usando xhr, fetch() y promises.",
+      "subtitle": "Aprende a comunicarte en tiempo real con el servidor utilizando websockets y a consumir APIs con JavaScript usando xhr, fetch() y promises.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/358b2db1-a529-4892-92a6-23bf97092c32.jpg",
       "level": "intermedio",
       "rating": "4.6",
@@ -110,7 +110,7 @@
     {
       "id": 8,
       "name": "Single Page Aplication con JavaScript",
-      "description": "Aprende a crear tu primera SPA, la forma moderna de desarrollar aplicaciones web.",
+      "subtitle": "Aprende a crear tu primera SPA, la forma moderna de desarrollar aplicaciones web.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/3298dc2b-624b-4fcb-8c9b-74dbfe4c5612.png",
       "level": "intermedio",
       "rating": "4.7",
@@ -120,7 +120,7 @@
     {
       "id": 9,
       "name": "Fundamentos de Redes",
-      "description": "Comprende cómo funcionan las direcciones IP y los protocolos de red.",
+      "subtitle": "Comprende cómo funcionan las direcciones IP y los protocolos de red.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/6ec77881-789f-4e1f-8287-9a6ff08ac66c.png",
       "level": "básico",
       "rating": "4.7",
@@ -130,7 +130,7 @@
     {
       "id": 10,
       "name": "Conmutación de Redes",
-      "description": "Aprende a crear y configurar una red de área local (LAN).",
+      "subtitle": "Aprende a crear y configurar una red de área local (LAN).",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/9d726c88-9e49-4b04-ac84-7bccc32ab617.png",
       "level": "básico",
       "rating": "4.8",
@@ -140,7 +140,7 @@
     {
       "id": 11,
       "name": "Enrutamiento de Redes",
-      "description": "Aprenderás cómo hace su trabajo un router en una red pequeña.",
+      "subtitle": "Aprenderás cómo hace su trabajo un router en una red pequeña.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/61514891-66e9-4cc2-b5e5-e7f6c9a62e64.png",
       "level": "básico",
       "rating": "4.9",
@@ -150,7 +150,7 @@
     {
       "id": 12,
       "name": "Infraestructura de Redes",
-      "description": "Diseña, configura y administra sistemas de redes.",
+      "subtitle": "Diseña, configura y administra sistemas de redes.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/317a14ee-c682-4be1-94ba-51bdcd53d2bf.png",
       "level": "básico",
       "rating": "4.7",
@@ -160,7 +160,7 @@
     {
       "id": 13,
       "name": "GO desde cero",
-      "description": "Adquiere los conocimientos básicos para iniciar a programar con Go.",
+      "subtitle": "Adquiere los conocimientos básicos para iniciar a programar con Go.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/3ec614b5-a9b7-475c-bf8f-8ba643a129eb.png",
       "level": "intermedio",
       "rating": "4.7",
@@ -170,7 +170,7 @@
     {
       "id": 14,
       "name": "Concurrencia en Go",
-      "description": "Aprende como funciona la concurrencia en Go y a implementarla con buenas prácticas para mejorar el rendimiento de tus aplicaciones.",
+      "subtitle": "Aprende como funciona la concurrencia en Go y a implementarla con buenas prácticas para mejorar el rendimiento de tus aplicaciones.",
       "cover": "https://edteam-media.s3.amazonaws.com/courses/big/93b594bb-a011-4c43-a39d-5ab3e9240e8b.png",
       "level": "avanzado",
       "rating": "5.0",
