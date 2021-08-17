@@ -22,7 +22,7 @@ function Banner({ color, imageBackground, title, subtitle, home, course, poster 
                 <div className="img-container s-ratio-4-3">
                   <img
                     src={poster}
-                    alt="image-home"
+                    alt="banner-home"
                   />
                 </div>
               </div>
@@ -36,7 +36,7 @@ function Banner({ color, imageBackground, title, subtitle, home, course, poster 
               <div className="img-container s-ratio-16-9">
                 <img
                   src={poster}
-                  alt="image-home"
+                  alt="banner-course"
                 />
               </div>
             </div>
