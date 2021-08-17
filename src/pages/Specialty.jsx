@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 function Specialty({ specialty, courses }) {
   let specialtyCourses = [];
-  if (courses) {
+  if (courses && specialty) {
     specialtyCourses = courses.filter(course => {
       return (
         course.specialty_id === specialty.id
@@ -26,7 +26,7 @@ function Specialty({ specialty, courses }) {
         <>
           <Banner
             color="dark-color-alt"
-            image={{
+            imageBackground={{
               url: "https://media.istockphoto.com/photos/asian-woman-video-call-online-via-the-internet-tutor-on-a-computer-picture-id1312818451?b=1&k=6&m=1312818451&s=170667a&w=0&h=6jRJKlClfVmnW2X-6br_QPkvN_VezfczfoYlOTsbDyE=",
               alternative: specialty.name
             }}
@@ -48,15 +48,17 @@ function Specialty({ specialty, courses }) {
                 {
                   specialtyCourses.map(course => {
                     return (
-                      <div className="course-class l-section" key={course.id}>
-                        <div className="ed-grid m-grid-3">
-                          <img src={course.cover} alt={course.name} />
-                          <div className="m-cols-2">
-                            <h3>{course.name}</h3>
-                            <p>{course.information}</p>
+                      <Link to={`/cursos/${course.id}`}>
+                        <div className="course-class l-section" key={course.id}>
+                          <div className="ed-grid m-grid-3">
+                            <img src={course.cover} alt={course.name} />
+                            <div className="m-cols-2">
+                              <h3>{course.name}</h3>
+                              <p>{course.information}</p>
+                            </div>
                           </div>
                         </div>
-                      </div>
+                      </Link>
                     )
                   })
                 }

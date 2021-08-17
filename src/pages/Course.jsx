@@ -16,7 +16,7 @@ function Course({ course }) {
         <>
           <Banner
             color="dark-color-alt"
-            image={{
+            imageBackground={{
               url: "https://media.istockphoto.com/photos/smiling-black-girl-with-headset-studying-online-using-laptop-picture-id1250195664?b=1&k=6&m=1250195664&s=170667a&w=0&h=hkBZVdZt68mxNuxcgpHxRHZgwarZ9ESzoCAG4vYGS3k=",
               alternative: course.name
             }}
@@ -44,7 +44,7 @@ function Course({ course }) {
                       {
                         course.subjects.map(subjects => (
                           <li key={subjects.subject.id}>
-                            <Link to={`/clase/${subjects.subject.id}`} className="color dark-color" >
+                            <Link to={`/clases/${subjects.subject.id}`} className="color dark-color" >
                               {subjects.subject.title} ({subjects.subject.duration_string_format})
                             </Link>
                           </li>

@@ -14,7 +14,7 @@ function Courses({ courses }) {
     <>
       <Banner
         color="dark-color"
-        image={{
+        imageBackground={{
           url: "https://www.cwjobs.co.uk/advice/wp-content/uploads/programmer-job-description-1024x576.jpg",
           alternative: "banner-courses"
         }}

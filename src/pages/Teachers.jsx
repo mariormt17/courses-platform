@@ -14,7 +14,7 @@ function Teachers({ match, teachers }) {
     <>
       <Banner
         color="primary-color"
-        image={{
+        imageBackground={{
           url: "https://www.ucn.edu.co/apoyo-inclusion/PublishingImages/banner_apoyoinclusion-equipo-trabajo.jpg",
           alternative: "banner-teachers"
         }}

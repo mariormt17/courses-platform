@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Banner({ color, image, title, subtitle, home, course, poster }) {
+function Banner({ color, imageBackground, title, subtitle, home, course, poster }) {
   return (
     <div className={`main-banner img-container l-block ${color}`}>
       <div className="ed-grid">
         <div>
           <img
-            src={image.url}
-            alt={image.alternative}
+            src={imageBackground.url}
+            alt={imageBackground.alternative}
             className="main-banner__img"
           />
           {
