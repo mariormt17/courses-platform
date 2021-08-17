@@ -24,7 +24,6 @@ function Course({ course }) {
             subtitle={course.subtitle}
             course
             poster={course.cover}
-            level={course.level}
           />
           <main className="ed-grid lg-grid-10">
             <div className="lg-cols-7">

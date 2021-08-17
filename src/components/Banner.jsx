@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Banner({ color, image, title, subtitle, home, course, poster, level }) {
+function Banner({ color, image, title, subtitle, home, course, poster }) {
   return (
     <div className={`main-banner img-container l-block ${color}`}>
       <div className="ed-grid">
@@ -31,7 +31,7 @@ function Banner({ color, image, title, subtitle, home, course, poster, level }) 
               <div className="main-banner__data s-cross-center">
                 <h1 className="main-banner__title">{title}</h1>
                 <p>{subtitle}</p>
-                <Link to="/" className="button accent-color">Comprar curso</Link>
+                <Link to="/" className="button accent-color">Comprar</Link>
               </div>
               <div className="img-container s-ratio-16-9">
                 <img

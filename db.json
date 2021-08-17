@@ -3,9 +3,68 @@
     {
       "id": 1,
       "name": "Desarrollo frontend con React.js",
+      "subtitle": "El camino para aprender React desde cero hasta crear tu primera aplicación real",
       "description": "En esta especialidad aprenderás lo necesario para entender desde las bases de React, pasando por las integraciones con otras librerías y extensiones hasta poder construir tu primera aplicación real tal y como fue construida la app de EDteam.",
       "cover": "https://edteam-media.s3.amazonaws.com/specialities/big/3e6a0de6-602b-439c-a90b-346f13c6760f.png",
-      "courses_count": 3
+      "rating": "4.9",
+      "level": "avanzado",
+      "courses_count": 3,
+      "abilities": [
+        {
+          "id": 76,
+          "description": "Bases de JSX"
+        },
+        {
+          "id": 77,
+          "description": "Pensar en componentes"
+        },
+        {
+          "id": 78,
+          "description": "Integración de React con librerías de terceros"
+        },
+        {
+          "id": 79,
+          "description": "Soluciones a problemas comunes en React"
+        },
+        {
+            "id": 80,
+            "description": "Desplegar tu primera app"
+        }
+      ],
+      "features": [
+          {
+              "id": 58,
+              "name": "4 cursos",
+              "icon": "speciality__courses-count"
+          },
+          {
+              "id": 59,
+              "name": "Certificado",
+              "icon": "speciality__certificate"
+          },
+          {
+              "id": 60,
+              "name": "19 horas",
+              "icon": "speciality__hours"
+          }
+      ],
+      "knowledge": [
+          {
+              "id": 30,
+              "description": "HTML",
+              "url": "https://ed.team/cursos/html"
+          },
+          {
+              "id": 31,
+              "description": "JavaScript desde cero",
+              "url": "https://ed.team/cursos/javascript"
+          },
+          {
+              "id": 32,
+              "description": "Javascript POO",
+              "url": "https://ed.team/cursos/js-poo"
+          }
+      ]
     },
     {
       "id": 2,
